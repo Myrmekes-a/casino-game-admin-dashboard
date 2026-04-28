@@ -32,3 +32,4 @@ export function socketEmit<T>(event: string, data: unknown): Promise<T> {
     });
   });
 }
+
