@@ -34,3 +34,4 @@ export async function fetchGameHistory(gameType: string, page: number): Promise<
   if (!data.success) throw new Error(data.error?.message || 'Failed to load history');
   return { list: data.list || [], count: data.count || 0 };
 }
+
