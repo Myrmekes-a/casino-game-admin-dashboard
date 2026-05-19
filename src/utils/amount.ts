@@ -15,3 +15,4 @@ export function formatAmount(value: number | undefined | null): string {
 export function toStoredAmount(displayValue: number): number {
   return Math.round(displayValue * STORED_MULTIPLIER);
 }
+
