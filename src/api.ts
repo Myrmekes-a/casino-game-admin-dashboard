@@ -35,3 +35,4 @@ export async function fetchGameHistory(gameType: string, page: number): Promise<
   return { list: data.list || [], count: data.count || 0 };
 }
 
+
