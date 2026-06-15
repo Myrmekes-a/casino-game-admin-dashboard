@@ -20,3 +20,4 @@ Vite + React + TypeScript admin app. Uses the same backend as the main site.
 
 - New route: `GET /admin/dashboard` (auth + admin) — returns counts and latest pay/game/registrations.
 - New route: `POST /admin/login` — admin-only login (no captcha).
+
