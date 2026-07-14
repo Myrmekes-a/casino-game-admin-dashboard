@@ -36,3 +36,4 @@ export async function fetchGameHistory(gameType: string, page: number): Promise<
 }
 
 
+
